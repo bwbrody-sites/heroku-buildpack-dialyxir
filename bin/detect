@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -e -o pipefail
 
 if grep --quiet dialyxir "$1"/mix.exs; then
   echo "Dialyxir" 

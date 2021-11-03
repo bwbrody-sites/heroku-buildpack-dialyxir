@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -e -o pipefail
 
 echo $MIX_ENV
 mkdir -p "$1"/priv/plts
